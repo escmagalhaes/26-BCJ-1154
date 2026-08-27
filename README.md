@@ -25,27 +25,38 @@ MDS1 and EVI1 Complex locus (MECOM) gene rearrangements (MECOM-R) occur in ~2% o
 ## Licenses ##
 
 **Code** (files under `R/`) is licensed under [MIT License](LICENSE.md).
+
 **Data** (files under `inputs/`) is licensed under [CC-BY-4.0](DATA_LICENSE.md).
+
 Specific code snippets from third parties are licensed under [MIT License](THIRD_PARTY_LICENSES.md)
 
 ## INSTRUCTIONS ##
 # Requirements #
 R version 4.5.2
+
 RStudio (recommended)
-Python version 3.10.11
+
+Python version 3.10.11 (if using Synapse data)
+
 Cytoscape software version 3.10.4
-Synapse account
-Synapse Personal Access Token (PAT)
+
+Synapse account (recommended)
+
+Synapse Personal Access Token (PAT) (recommended)
+
 Internet connection 
 
 # Getting Started #
 1) Clone or download this repository
 2) Open the project file (.Rproj) located inside main project folder
 3) Open and run the script "load_all.R" located inside folder "R/setup/"
+
 Note: Synapse data is not necessary to reproduce Figures/Tables in this manuscript. 
-This data was only used for exploratory purposes. If assessing Synapse data is necessary,
-visit this website to create an account and a Personal Access Tokens (PAT):
+This data was only used for exploratory purposes. 
+
+If assessing Synapse data is necessary, visit this website to create an account and a Personal Access Tokens (PAT):
 https://docs.synapse.org/synapse-docs/managing-your-account#ManagingYourAccount-PersonalAccessTokens
+
 Add the PAT to `config.R` script as and object called `.synapse_token` and restart R to run scripts.
 
 # To Reproduce All Figures and Tables in sequence #

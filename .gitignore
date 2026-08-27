@@ -1,0 +1,30 @@
+# R session files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# Package library
+renv/library/
+renv/staging/
+renv/sandbox/
+
+# Data files
+*.qs2
+*.rds
+*.RDS
+*.qmd
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pdf
+*.html
+*.png
+
+# Generated outputs and bio_cache
+output/*
+!output/.gitkeep
+bio_cache/*
+!bio_cache/.gitkeep

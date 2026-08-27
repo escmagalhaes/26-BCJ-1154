@@ -1,0 +1,89 @@
+cohort,upi,status,surv_time,karyotype,chr3_status_cat,chr3_status,chr3_abn,MECOM_R,MECOM,MECOM_zscore,type
+"Kramer, M. et al.",100232,1,0.12,"46~49,XY,del(3)(p14),del(5)(p11.2q33),del(17)(q21q21),add(21)(p11.2),+22,mar[cp20]",Del(3),Chr3-abn,yes,no,1.2506538277476484,-0.36562666728573245,mRNA
+"Kramer, M. et al.",103342,1,4.29,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,1.603953310401497,-0.046582739098953795,mRNA
+"Kramer, M. et al.",113971,1,2.37,"46, XX[15]",Chr3-WT,Chr3-WT,no,no,2.200424742445761,0.49205543636943655,mRNA
+"Kramer, M. et al.",123804,1,0,"47,XX,+der(5)t(2;5)(p11.2;q11.2)?,t(8;16)(p11.2;p13.3)[19]",Chr3-WT,Chr3-WT,no,no,1.0285428008326882,-0.5662020374737995,mRNA
+"Kramer, M. et al.",146218,1,0.38,"46,XY,inv(16)(p13q22)[9]/46,XY[10]",Chr3-WT,Chr3-WT,no,no,1.2708505818914742,-0.34738816965118585,mRNA
+"Kramer, M. et al.",179016,0,4.66,"46,XY,del(9)(q13:q22),t(11:21)(p13;q22),t(15;17)(q22;q210[20]",Chr3-WT,Chr3-WT,no,no,1.3102511289593843,-0.3118078591032355,mRNA
+"Kramer, M. et al.",186481,1,0.62,"46,XX[20]",Chr3-WT,Chr3-WT,no,no,1.5709822609216793,-0.07635694953216879,mRNA
+"Kramer, M. et al.",224143,1,0.07,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,1.4177775892823126,-0.2147070537814841,mRNA
+"Kramer, M. et al.",237983,0,3.52,"45,XY,-7[20]",Chr3-WT,Chr3-WT,no,no,1.0554393636746318,-0.5419133377017034,mRNA
+"Kramer, M. et al.",258135,0,4.52,"46,XX,inv(16)(p13q22)[5]/46,idem,t(3;3)(p13;q?28)[5]/46,XX[6]",atypical MECOM-R,MECOM-R,no,yes,1.5519054249721778,-0.09358411508866897,mRNA
+"Kramer, M. et al.",263578,1,7.97,"46,XX,t(8;21)(q22;q22)[17]/46,XX[3]",Chr3-WT,Chr3-WT,no,no,1.4677522482309662,-0.16957788636519744,mRNA
+"Kramer, M. et al.",273919,0,6.22,"46, XY[20]",Chr3-WT,Chr3-WT,no,no,1.3770226255676428,-0.2515104581311515,mRNA
+"Kramer, M. et al.",303642,0,3.5,"46, XX[19]",Chr3-WT,Chr3-WT,no,no,1.0853206311342498,-0.5149293272018723,mRNA
+"Kramer, M. et al.",326772,1,1.02,"39~47,XX,del(5)(q13q33),-7,der(8)t(8;?8;8)(p23;?p11.2p23;q11.2),der(14)t(1;14)(p12;p11.2)der(1)t(7;16)(p15;q22),+2mar[cp19]",Chr3-WT,Chr3-WT,no,no,1.6173510265473403,-0.0344840517309644,mRNA
+"Kramer, M. et al.",332131,1,1.71,"46, XY[20]",Chr3-WT,Chr3-WT,no,no,1.4387738643146248,-0.19574655598148566,mRNA
+"Kramer, M. et al.",348685,1,0.67,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,0.8905837109179073,-0.690784755922355,mRNA
+"Kramer, M. et al.",400220,1,0.89,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,1.7535160173100321,0.0884785215740447,mRNA
+"Kramer, M. et al.",407992,1,0.64,"46,XY,t(11;19)(q23;p13)[17]/46,XY,t(11;19)(q23;p13),inv(12)(p12p13)[3]",Chr3-WT,Chr3-WT,no,no,5.874829298239862,3.810193505585134,mRNA
+"Kramer, M. et al.",410324,0,4.89,"52~54,XY,+2,+4,+6,+8,del(11)(q23),+19,+19,+21[17]/46,XY[3]",Chr3-WT,Chr3-WT,no,no,3.975614700060537,2.0951248014894643,mRNA
+"Kramer, M. et al.",434640,1,0.58,"43,XY-3,del(5)(q12q33),-7,der(10)t(10;11)(q26;q13),-12,-18,+2mar[20]",Del(3),Chr3-abn,yes,no,1.3638338348828387,-0.2634204772359226,mRNA
+"Kramer, M. et al.",478908,0,4.96,"46,XY,t(15;17)(q22;q21)[20]",Chr3-WT,Chr3-WT,no,no,1.4453339178204185,-0.18982255851655172,mRNA
+"Kramer, M. et al.",498463,1,1.45,"46,XX,del(7)(q11.2)[20]",Chr3-WT,Chr3-WT,no,no,1.2941074837765307,-0.3263862330530143,mRNA
+"Kramer, M. et al.",507202,0,2.98,"46, XY[20]",Chr3-WT,Chr3-WT,no,no,0.9639769553892942,-0.6245076449494363,mRNA
+"Kramer, M. et al.",507696,1,2.86,"46,XY,inv(16)(p13;q22)[20]",Chr3-WT,Chr3-WT,no,no,0.6666885431220279,-0.892971278526529,mRNA
+"Kramer, M. et al.",570755,1,0.32,"46,XY,t(11;19)(q23;p13)[20]",Chr3-WT,Chr3-WT,no,no,4.47540839044114,2.546459009692153,mRNA
+"Kramer, M. et al.",594368,1,1.79,"45,XY,der(7)(t:7;12)(p11.1;p11.2),-12,-13,+mar[19]/46,XY[1]",Chr3-WT,Chr3-WT,no,no,0.6399672306649153,-0.9171017200108611,mRNA
+"Kramer, M. et al.",595704,0,4.91,"46,XX,inv(16)(p13q22)[19]/46,XX[1]",Chr3-WT,Chr3-WT,no,no,1.4180794082366197,-0.21443449888256363,mRNA
+"Kramer, M. et al.",605322,1,0.33,"45,XX,-7[20]",Chr3-WT,Chr3-WT,no,no,1.6336622601842827,-0.019754338531239337,mRNA
+"Kramer, M. et al.",617776,1,0.59,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,0.8174092460175408,-0.756864299966443,mRNA
+"Kramer, M. et al.",700717,1,0.93,"46,XY[20]",Chr3-WT,Chr3-WT,no,no,1.892187236081799,0.21370432159804242,mRNA
+"Kramer, M. et al.",730817,1,0.64,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,1.3496507828917346,-0.2762283550933398,mRNA
+"Kramer, M. et al.",740266,1,2.72,"47,XY,+22[10]/47,XY,+8[7]/45,XY,del(3)(p21),del(4)(p12p15),-7,?dup(7)(q11.2q36)[3]",Del(3),Chr3-abn,yes,no,1.3582004480868068,-0.2685076566421899,mRNA
+"Kramer, M. et al.",750152,0,4.7,"45,X,-X,t(8;21)(q22;q22)[20]",Chr3-WT,Chr3-WT,no,no,1.7523398485564659,0.08741639293312621,mRNA
+"Kramer, M. et al.",757199,0,3.64,"46,XX,t(15;17)(q22;q21),t(16;19)(p13.3;p13.1)[17]/46,XX[3]",Chr3-WT,Chr3-WT,no,no,1.5450475000980881,-0.09977710262039172,mRNA
+"Kramer, M. et al.",809653,1,0.16,"44~47,XX,t(1;15)(q32;q26)[14],del(5)(q13q33)[19],-7[20],+8[7],del(12)(p11.2p11.2)[15],del(17)(q21)[8],der(22)t(1;22)(p13;p11.2)[20],+mar[13][cp20]",Chr3-WT,Chr3-WT,no,no,0.13125324426565846,-1.3764913215048231,mRNA
+"Kramer, M. et al.",816067,0,4.33,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,1.7621356331309723,0.0962623883103231,mRNA
+"Kramer, M. et al.",849660,1,2.25,"46,XY[30]",Chr3-WT,Chr3-WT,no,no,0.9353986834145247,-0.6503149970664895,mRNA
+"Kramer, M. et al.",868231,1,0.44,"46,XY[20]",Chr3-WT,Chr3-WT,no,no,0.9820252733796272,-0.6082092733086217,mRNA
+"Kramer, M. et al.",907786,1,0.77,"46,XX[20]",Chr3-WT,Chr3-WT,no,no,4.872986401680248,2.9054882658733483,mRNA
+"Kramer, M. et al.",914247,1,1.51,"46,XY[13]",Chr3-WT,Chr3-WT,no,no,1.3486200645833462,-0.27715913601464803,mRNA
+"Kramer, M. et al.",933124,1,2.05,"46,XX[20]",Chr3-WT,Chr3-WT,no,no,1.8462620954652629,0.17223203538134965,mRNA
+"Kramer, M. et al.",982009,1,0.52,"46,XY[20]",Chr3-WT,Chr3-WT,no,no,1.215460352162494,-0.3974078196748919,mRNA
+"Kramer, M. et al.",987523,1,0.88,"46,XY,t(9;22)(q34;q11.2[4]/50,idem,+8,+10,+21,+der(22)(t(9;22)(q34;q11.2)[16]",Chr3-WT,Chr3-WT,no,no,0.9213400609788445,-0.6630105099302,mRNA
+"Kramer, M. et al.",989176,1,0.03,"46,XX[20]",Chr3-WT,Chr3-WT,no,no,2.470734797799264,0.7361565067716914,mRNA
+"Kramer, M. et al.",100232,1,0.12,"46~49,XY,del(3)(p14),del(5)(p11.2q33),del(17)(q21q21),add(21)(p11.2),+22,mar[cp20]",Del(3),Chr3-abn,yes,no,NA,NA,protein (MS)
+"Kramer, M. et al.",103342,1,4.29,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",113971,1,2.37,"46, XX[15]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",123804,1,0,"47,XX,+der(5)t(2;5)(p11.2;q11.2)?,t(8;16)(p11.2;p13.3)[19]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",146218,1,0.38,"46,XY,inv(16)(p13q22)[9]/46,XY[10]",Chr3-WT,Chr3-WT,no,no,-0.879,-0.6459097659646021,protein (MS)
+"Kramer, M. et al.",179016,0,4.66,"46,XY,del(9)(q13:q22),t(11:21)(p13;q22),t(15;17)(q22;q210[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",186481,1,0.62,"46,XX[20]",Chr3-WT,Chr3-WT,no,no,-0.429,-0.190582664082073,protein (MS)
+"Kramer, M. et al.",224143,1,0.07,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,-0.852,-0.6185901398516503,protein (MS)
+"Kramer, M. et al.",237983,0,3.52,"45,XY,-7[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",258135,0,4.52,"46,XX,inv(16)(p13q22)[5]/46,idem,t(3;3)(p13;q?28)[5]/46,XX[6]",atypical MECOM-R,MECOM-R,no,yes,NA,NA,protein (MS)
+"Kramer, M. et al.",263578,1,7.97,"46,XX,t(8;21)(q22;q22)[17]/46,XX[3]",Chr3-WT,Chr3-WT,no,no,-0.68,-0.44455400313210597,protein (MS)
+"Kramer, M. et al.",273919,0,6.22,"46, XY[20]",Chr3-WT,Chr3-WT,no,no,-0.686,-0.45062503115720637,protein (MS)
+"Kramer, M. et al.",303642,0,3.5,"46, XX[19]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",326772,1,1.02,"39~47,XX,del(5)(q13q33),-7,der(8)t(8;?8;8)(p23;?p11.2p23;q11.2),der(14)t(1;14)(p12;p11.2)der(1)t(7;16)(p15;q22),+2mar[cp19]",Chr3-WT,Chr3-WT,no,no,-0.952,-0.7197739402699902,protein (MS)
+"Kramer, M. et al.",332131,1,1.71,"46, XY[20]",Chr3-WT,Chr3-WT,no,no,-1.046,-0.8148867126632297,protein (MS)
+"Kramer, M. et al.",348685,1,0.67,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",400220,1,0.89,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",407992,1,0.64,"46,XY,t(11;19)(q23;p13)[17]/46,XY,t(11;19)(q23;p13),inv(12)(p12p13)[3]",Chr3-WT,Chr3-WT,no,no,1.949,2.215568109866048,protein (MS)
+"Kramer, M. et al.",410324,0,4.89,"52~54,XY,+2,+4,+6,+8,del(11)(q23),+19,+19,+21[17]/46,XY[3]",Chr3-WT,Chr3-WT,no,no,1.412,1.672211101619563,protein (MS)
+"Kramer, M. et al.",434640,1,0.58,"43,XY-3,del(5)(q12q33),-7,der(10)t(10;11)(q26;q13),-12,-18,+2mar[20]",Del(3),Chr3-abn,yes,no,NA,NA,protein (MS)
+"Kramer, M. et al.",478908,0,4.96,"46,XY,t(15;17)(q22;q21)[20]",Chr3-WT,Chr3-WT,no,no,-0.934,-0.7015608561946891,protein (MS)
+"Kramer, M. et al.",498463,1,1.45,"46,XX,del(7)(q11.2)[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",507202,0,2.98,"46, XY[20]",Chr3-WT,Chr3-WT,no,no,-0.157,0.0846372730558113,protein (MS)
+"Kramer, M. et al.",507696,1,2.86,"46,XY,inv(16)(p13;q22)[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",570755,1,0.32,"46,XY,t(11;19)(q23;p13)[20]",Chr3-WT,Chr3-WT,no,no,1.252,1.5103170209502195,protein (MS)
+"Kramer, M. et al.",594368,1,1.79,"45,XY,der(7)(t:7;12)(p11.1;p11.2),-12,-13,+mar[19]/46,XY[1]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",595704,0,4.91,"46,XX,inv(16)(p13q22)[19]/46,XX[1]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",605322,1,0.33,"45,XX,-7[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",617776,1,0.59,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",700717,1,0.93,"46,XY[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",730817,1,0.64,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,-1.182,-0.9524966812321718,protein (MS)
+"Kramer, M. et al.",740266,1,2.72,"47,XY,+22[10]/47,XY,+8[7]/45,XY,del(3)(p21),del(4)(p12p15),-7,?dup(7)(q11.2q36)[3]",Del(3),Chr3-abn,yes,no,NA,NA,protein (MS)
+"Kramer, M. et al.",750152,0,4.7,"45,X,-X,t(8;21)(q22;q22)[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",757199,0,3.64,"46,XX,t(15;17)(q22;q21),t(16;19)(p13.3;p13.1)[17]/46,XX[3]",Chr3-WT,Chr3-WT,no,no,-0.607,-0.37068982882671786,protein (MS)
+"Kramer, M. et al.",809653,1,0.16,"44~47,XX,t(1;15)(q32;q26)[14],del(5)(q13q33)[19],-7[20],+8[7],del(12)(p11.2p11.2)[15],del(17)(q21)[8],der(22)t(1;22)(p13;p11.2)[20],+mar[13][cp20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",816067,0,4.33,"46, XX[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",849660,1,2.25,"46,XY[30]",Chr3-WT,Chr3-WT,no,no,-0.808,-0.5740692676675809,protein (MS)
+"Kramer, M. et al.",868231,1,0.44,"46,XY[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",907786,1,0.77,"46,XX[20]",Chr3-WT,Chr3-WT,no,no,1.026,1.2816416320047714,protein (MS)
+"Kramer, M. et al.",914247,1,1.51,"46,XY[13]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",933124,1,2.05,"46,XX[20]",Chr3-WT,Chr3-WT,no,no,-0.518,-0.28063624645439544,protein (MS)
+"Kramer, M. et al.",982009,1,0.52,"46,XY[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",987523,1,0.88,"46,XY,t(9;22)(q34;q11.2[4]/50,idem,+8,+10,+21,+der(22)(t(9;22)(q34;q11.2)[16]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)
+"Kramer, M. et al.",989176,1,0.03,"46,XX[20]",Chr3-WT,Chr3-WT,no,no,NA,NA,protein (MS)

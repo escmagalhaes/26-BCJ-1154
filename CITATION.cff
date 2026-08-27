@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this repository or their datasets, please cite the journal article related to it"
+type: software
+title: "26-BCJ-1154"
+version: 1.0.0
+date-released: 2026-08-27
+url: "https://github.com/escmagalhaes/26-BCJ-1154"
+authors:
+  - family-names: "de Camargo Magalhães"
+    given-names: "Eduardo Sabino"
+    email: "escmagalhaes@gmail.com"
+    orcid: "0000-0002-7726-4827"
+license: MIT

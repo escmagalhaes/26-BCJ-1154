@@ -1,0 +1,100 @@
+variable,label,type,class,factor_levels,role,block_table,block_models,include_table,include_uv_model,include_mv_model,forced,priority,exclusive_group,blocks_group,mv_order
+group,Group,categorical,factor,NA,exposure,main,main,TRUE,TRUE,TRUE,TRUE,core,NA,NA,1
+upi,Unique Patient Identifier Number,categorical,character,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+status,Deceased,binary,numeric,NA,event,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+relapse,Relapse,binary,numeric,NA,event,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+event,Event,binary,numeric,NA,event,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+surv_time,Overall Survival (years),continuous,numeric,NA,time,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+rem_time,Remission Duration (years),continuous,numeric,NA,time,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+event_time,Event-free Survival (years),continuous,numeric,NA,time,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+age,Age at diagnosis (years),continuous,integer,NA,predictor,demographic,demographic,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+age_gp,Age group (years),categorical,factor,≤ 40|41-55|56-70|> 70,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+age_40_minus,Age < 40 (years),categorical,factor,no|yes,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+age_41_55,Age 41 - 55 (years),categorical,factor,no|yes,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+age_56_70,Age 56 - 70 (years),categorical,factor,no|yes,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+age_70_plus,Age > 70 (years),categorical,factor,no|yes,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+gender,Gender,categorical,factor,female|male,predictor,demographic,demographic,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+race,Race,categorical,factor,asian|black|hispanic|other|white,NA,demographic,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+race_white,White (race),categorical,factor,no|yes,predictor,NA,demographic,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+race_black,Black (race),categorical,factor,no|yes,predictor,NA,demographic,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+race_hisp,Hispanic (race),categorical,factor,no|yes,predictor,NA,demographic,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+race_asian,Asian (race),categorical,factor,no|yes,predictor,NA,demographic,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+race_other,Other (race),categorical,factor,no|yes,predictor,NA,demographic,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+wbc,White Blood Cell count (×10³/µL),continuous,numeric,NA,predictor,laboratorial,laboratorial,TRUE,TRUE,TRUE,FALSE,low,wbc_blast,NA,3
+blasts,Blasts (%),continuous,numeric,NA,predictor,laboratorial,laboratorial,TRUE,TRUE,TRUE,FALSE,core,wbc_blast,NA,1
+hgb,Hemoglobin (g/dL),continuous,numeric,NA,predictor,laboratorial,laboratorial,TRUE,TRUE,TRUE,FALSE,low,NA,NA,3
+plt,Platelet count (×10³/µL),continuous,numeric,NA,predictor,laboratorial,laboratorial,TRUE,TRUE,TRUE,FALSE,low,NA,NA,3
+fab2,FAB classification,categorical,factor,M0|M1|M2|M3|M4|M5|M6|M7|RAEB-T,NA,clinical,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+aml_gp,Primary or Secondary AML,categorical,factor,primary|secondary,predictor,clinical,clinical,TRUE,TRUE,TRUE,FALSE,core,aml_risk,NA,1
+tx_aml,Therapy-related AML,categorical,factor,no|yes,predictor,clinical,clinical,TRUE,TRUE,TRUE,FALSE,low,aml_risk,NA,3
+pre_mlgn,Prior Malignancy,categorical,factor,no|yes,predictor,clinical,clinical,TRUE,TRUE,TRUE,FALSE,low,aml_risk,NA,3
+ps,Performance status (PS),categorical,factor,0|2|3|4,predictor,clinical,clinical,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+eln_risk,ELN risk (2022),categorical,factor,favorable|intermediate|adverse,predictor,clinical,clinical,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+chem2,Therapeutic regimen,categorical,factor,AraC-based|HMA-based|FLT3i-Mono.|other,NA,therapy,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+chem3,Therapeutic regimen expanded,categorical,factor,IC_VTX|IC_only|VH|HMA_only|IC_VH|other,NA,therapy,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+tx1_resp2,Initial Therapy Response,categorical,factor,CR/CRi|CR/CRi+Rel.|PR|ED,NA,therapy,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+arac,AraC-based therapy,categorical,factor,no|yes,NA,therapy,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+hma,HMA-based therapy,categorical,factor,no|yes,NA,therapy,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+vtx,Venetoclax therapy,categorical,factor,no|yes,NA,therapy,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+flt3i,FLT3 inhibitor therapy,categorical,factor,no|yes,NA,therapy,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+idhi,IDH inhibitor therapy,categorical,factor,no|yes,NA,therapy,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+hsct,Stem-cell Transplant,categorical,factor,no|yes,NA,therapy,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+karyotype,Cytogenetics,categorical,character,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+cyto_risk,Cytogenetic Risk,categorical,factor,favorable|intermediate|unfavorable,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,low,cyto_risk_summary,high_cyto_risk,3
+cyto_unfav,Unfavorable Cytogenetics,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,core,cyto_risk_summary,high_cyto_risk,1
+cyto_cat,Cytogenetic Category,categorical,factor,-5/5q-|-7/7q-|11q23|COMPLEX|DIPLOID|inv16|Misc|t(6;9)|t(8;21)|t(9;11)|trisomy8,NA,cytogenetics,cytogenetics,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+complex_kar,Complex Karyotype,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+diploid,Diploid Karyotype,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,low_cyto_risk,cyto_risk_summary,2
+del5_5q,-5/5q-,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+del7_7q,-7/7q-,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+inv16,Inv 16,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,low_cyto_risk,cyto_risk_summary,2
+del12,Del 12,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+MECOM_R,MECOM-R,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+chr3_abn,Other Chromosome 3 abnormalities,categorical,factor,no|yes,NA,cytogenetics,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+chr3_status_cat,Chromosome 3 alteration type,categorical,factor,Chr3-WT|MECOM-R|atypical MECOM-R|Add(3p)|Add(3q)|Del(3)|Del(3p)|Del(3q)|Del(3q26)|Other t(3p)|Other t(3q),NA,cytogenetics,NA,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,4
+chr3_status,Chromosome 3 status,categorical,factor,Chr3-WT|MECOM-R|Chr3-abn,NA,cytogenetics,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+chr3_status_simple,Chromosome 3 status simplified,categorical,factor,Chr3-WT|Chr3-ALT,NA,cytogenetics,NA,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,4
+t_8_21,t(8;21),categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,low_cyto_risk,cyto_risk_summary,2
+t_15_17,t(15;17),categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+t_11q23,t(11q23),categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+t_9_11,t(9;11),categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+t_6_9,t(6;9),categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+trisomy8,Trisomy 8,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+trisomy6,Trisomy 6,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+t_9_22_Ph_pos,t(9;22)Ph+,categorical,factor,no|yes,predictor,cytogenetics,cytogenetics,TRUE,TRUE,TRUE,FALSE,optional,high_cyto_risk,cyto_risk_summary,2
+mut_asxl1,ASXL1 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_bcor,BCOR Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_cebpa,CEBPA Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_cebpa_db,CEBPA double Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_dnmt3a,DNMT3a Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_ezh2,EZH2 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_flt3,FLT3 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,low,NA,NA,3
+mut_flt3_itd,FLT3-ITD Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_flt3_itd_high_ar,FLT3-ITD Mutation with high allelic ratio,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,low,NA,NA,3
+mut_flt3_d835,FLT3-TKD Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_gata2,GATA2 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_idh,IDH Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,low,NA,NA,3
+mut_idh1,IDH1 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_idh2,IDH2 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_jak2,JAK2 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_kit,KIT Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_kmt2a,KMT2A Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_mll,MLL Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_npm1,NPM1 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_phf6,PHF6 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_ptpn11,PTPN11 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_rad21,RAD21 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_ras,RAS Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,low,NA,NA,3
+mut_nras,KRAS Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_kras,NRAS Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_runx1,RUNX1 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_sf3b1,SF3B1 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_smc1a,SMC1A Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_smc3,SMC3 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_srsf2,SRSF2 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_stag2,STAG2 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_tet2,TET2 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_tp53,TP53 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_u2af1,U2AF1 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1
+mut_wt1,WT1 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,optional,NA,NA,2
+mut_zrsr2,ZRSR2 Mutation,categorical,factor,no|yes,predictor,mutations,mutations,TRUE,TRUE,TRUE,FALSE,core,NA,NA,1

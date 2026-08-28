@@ -4,9 +4,10 @@ An associated manuscript has been provisionally accepted at Blood Cancer Journal
 Citation will be updated upon final publication of the manuscript"
 type: software
 title: "26-BCJ-1154"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-08-27
 url: "https://github.com/escmagalhaes/26-BCJ-1154"
+doi: 10.5281/zenodo.22135645
 authors:
   - family-names: "de Camargo Magalhães"
     given-names: "Eduardo Sabino"

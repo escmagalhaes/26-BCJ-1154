@@ -5,7 +5,7 @@ High MECOM Protein Levels Confer Adverse Prognosis in Acute Myeloid Leukemia Ind
 Wildtype MECOM Protein is adverse in AML
 
 ## AUTHORS ##
-Steven M. Kornblau [1]*, Eduardo Sabino de Camargo Magalhães [2]*, Brandon D. Brown [3], Samanta Soledad Catueno [3], Yihua Qiu [1], Eitan Kugler [1], Abhishek Maiti [1], Warren C. Fiskus [1], Tapan Kadia [1] 
+Steven M. Kornblau [1] *, Eduardo Sabino de Camargo Magalhães [2] *, Brandon D. Brown [3], Samanta Soledad Catueno [3], Yihua Qiu [1], Eitan Kugler [1], Abhishek Maiti [1], Warren C. Fiskus [1], Tapan Kadia [1] 
 
 ## AFFILIATIONS ##
 [1] Department of Leukemia, The University of Texas M.D. Anderson Cancer Center, Houston, TX, USA 

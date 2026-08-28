@@ -1,5 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this repository or their datasets, please cite the journal article related to it"
+message: "If you use this repository or its datasets, please cite it as described below. 
+An associated manuscript has been provisionally accepted at Blood Cancer Journal (Nature Publishing Group).
+Citation will be updated upon final publication of the manuscript"
 type: software
 title: "26-BCJ-1154"
 version: 1.0.0

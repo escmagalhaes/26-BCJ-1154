@@ -17,7 +17,7 @@ packages<-list(install=c(
   "bioc::STRINGdb",
   
   #Data analysis workflows
-  "escmagalhaes/rppx@v0.1.0-beta",
+  "escmagalhaes/rppx@v0.1.3-beta",
   
   #Stats / modeling
   "broom",
